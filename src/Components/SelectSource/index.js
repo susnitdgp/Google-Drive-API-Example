@@ -18,6 +18,8 @@ const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/drive/v3/r
 // included, separated by spaces.
 const SCOPES = 'https://www.googleapis.com/auth/drive.metadata.readonly';
 
+const password = 'abcdef12345';
+
 const SelectSource = () => {
 
     const [listDocumentsVisible, setListDocumentsVisibility] = useState(false);
