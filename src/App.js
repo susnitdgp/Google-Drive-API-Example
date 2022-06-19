@@ -1,6 +1,8 @@
 
 import './App.css';
 
+const password = 'abcdef12345';
+
 function App() {
   return (
   
